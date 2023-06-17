@@ -1,0 +1,79 @@
+<html> 
+ <head> 
+  <title>Produtos Agrícolas</title> 
+  <style>
+    body{
+      background-color: #f2f2f2;
+    }
+    h1{
+      text-align: center;
+      color: green;
+    }
+    #produtos{
+      margin: 0 auto;
+      width: 50%;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #produtos h2{
+      color: green;
+      font-size: 20px;
+    }
+    #produtos ul{
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+    #produtos li{
+      font-size: 16px;
+      padding: 5px;
+      border-bottom: 1px solid #ccc;
+    }
+    #add-produto{
+      margin-top: 20px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #add-produto input[type=text]{
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+      width: 70%;
+    }
+    #add-produto button{
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+ </style> 
+ </head> 
+ <body> 
+  <h1>Produtos Agrícolas</h1> 
+  <div id="produtos"> 
+   <h2>Frutas</h2> 
+   <ul>
+     Maçã
+    <p>Banana</p>
+    <p>Manga</p>
+    <p> Limão</p>
+    <p> Abacate</p>
+    <p> Legumes</p>
+    <p>Cenoura</p>
+    <p>Tomate</p>
+    <p> Alface</p>
+    <p> Cebola</p>
+    <p> Pimentão</p>
+   </ul>
+  </div> 
+  <div id="add-produto"> 
+   <h2>Adicionar novo produto:</h2> <label for="produto">Produto:</label> 
+   <input type="text" id="produto"> <button id="btn-add">Adicionar</button> 
+  </div> 
+ 
+</body></html>
